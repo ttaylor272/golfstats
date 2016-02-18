@@ -13,12 +13,14 @@
         <p ng-hide="headervm.currentUserName()">Please sign in or sign up if you're not a member so you can share your best recipes with us!<p>
         <p ng-show="headervm.currentUserName()" class="header-message">We'd love you to share your best recipes with us, {{headervm.currentUserName()}}!<p>
       </div>
+      <!--
       <div class="col-sm-4 col-sm-offset-2">
         <h4 class="ng-cloak">Today's Recipe Recommendations</h4>
         <div class="ng-cloak recipe" ng-repeat="recipe in headervm.list()" ng-class="recipe.new ? 'new' : 'old'">
           <span ng-bind="recipe.title" class="title"></span>
         </div>
-      </div>
+      </div> 
+    -->
     </div>
     <div class="row">
       <div class="col-sm-4 col-sm-offset-1" ng-controller="ControllerUser as uservm">
