@@ -1,8 +1,8 @@
-angular.module('recipeJSApp', [])
+angular.module('golfStatsApp', [])
 .controller('ControllerHeader', ['RecipeService', 'UserService', function(RecipeService, UserService) {
   var vm = this;
   vm.message = 'Welcome';
-  vm.titletext = 'RecipeJS';
+  vm.titletext = 'GolfStats';
   vm.edition = 'First';
   vm.list = function() {
     return RecipeService.listRecipes();
