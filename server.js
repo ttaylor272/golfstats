@@ -44,7 +44,7 @@ router.post('/recipes', function(req, res) {
 // user api
 var users = [
   {id: "6eaf0d90-306e-11e5-80b5-5b0f99bb025c",
-    email: 'victorkane@example.com', name: 'Victor Kane', password: '123456'},
+    email: 'ttaylor272@gmail.com', name: 'Timothy Taylor', password: '123456'},
   {id: "78fde870-306e-11e5-879d-bfbdfa9b6181",
     email: 'henry@example.com', name: 'Henry James', password: 'abcdefg'},
   {id: "82ec7ae0-306e-11e5-9e68-b16f938f45e2",
